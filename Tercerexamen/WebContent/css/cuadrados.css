@@ -1,0 +1,24 @@
+.principal{
+	height: 500px;
+	width:700px;
+	position:absolute;
+	top: 40%;
+	left: 20%;
+}
+.fila{
+	height: 33%;
+	border-style: none;
+}
+.linea{
+	position: relative;
+	width: 25%;
+	float: left;
+	height: 100%;
+	border-radius: 50px;
+	
+}
+h1{
+	position: absolute;
+	top:10%;
+	left:40%;
+}
