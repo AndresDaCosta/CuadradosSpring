@@ -22,3 +22,7 @@ h1{
 	top:10%;
 	left:40%;
 }
+div.linea:hover{
+	opacity:0.6; 
+	cursor:pointer;
+}
