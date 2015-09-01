@@ -1,3 +1,20 @@
+/**
+ * @author: jorge andres da costa  ribeiro 
+ * @alias: buskador007
+ * 
+ * date of finish: 30/08/2015
+ * 
+ * version: 1.1.2
+ * 
+ * 
+ * language and codifing: javascript.
+ * 
+ * 
+ * 
+ * */
+
+
+
 
 var xmlhttp = new XMLHttpRequest();
 var aciertos = 0;
@@ -13,7 +30,8 @@ var color1 = null;
 			
 			
 			/*
-			* funcion que recargara los divs cada vez que se recarge la pagina para volver a jugar
+			* funcion que recargara los divs cada vez que se recarge la pagina para volver a jugar.
+			* 
 			*/
 
 
@@ -153,7 +171,7 @@ var color1 = null;
 		function mandarinfo(tiempotot){
 			
 			xmlhttp.onreadystatechange = procesoend;
-			xmlhttp.open("GET", "http://localhost:8195/Tercerexamen/settiempo?tiempo="+tiempotot, true);
+			xmlhttp.open("GET", "http://localhost:8191/Tercerexamen/settiempo?tiempo="+tiempotot, true);
 			xmlhttp.send(null);
 			
 			
